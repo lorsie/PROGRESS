@@ -9,18 +9,21 @@ require_once 'core/handleForms.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-		body {
-		font-family: "Arial";
-		}
-		input {
-			font-size: 1.5em;
-			height: 50px;
-			width: 200px;
-		}
-		table, th, td {
-			border:1px solid black;
-		}
-	</style>
+    body {
+        font-family: "system-ui";
+        background-color: #FFCCEA
+    }
+    input {
+        font-size: 1.5em;
+        height: 40px;
+        width: 200px;
+        background-color: #D4BDAC
+    }
+    put [type = "submit"]{
+        font-weight:bold;
+    }
+   </style> 
+	
 </head>
 <body>
 	<h1>Register here!</h1>
